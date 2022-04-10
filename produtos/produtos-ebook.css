@@ -1,0 +1,274 @@
+body {
+
+    /*  width: 95%;
+    max-width: 800px;
+    margin: auto; */
+    background-color: #FFB6C1;
+    font-family: 'Amatic SC', cursive;
+    margin-top: -5.5%;
+}
+
+
+
+main {
+    background-color: none;
+    width: 95%;
+    max-width: 340px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #fbdcd7, 
+    -1px 1px 0px #fbdcd7,                    
+     1px -1px 0px #fbdcd7,                  
+     1px 0px 0px #fbdcd7; 
+}
+
+footer h3 {
+
+    text-align: center;
+    font-size: 35px;
+    text-align: center;
+    border: 4px solid #FF9FAD;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.4);
+   
+    
+    
+
+}
+hr {
+    border: 0;
+    border-top: 0.1px solid;
+    width: 400px;
+}
+
+
+p {
+    text-align: center;
+    font-size: 40px;
+    border: 4px solid #FF9FAD;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.4);
+    width: 300px;
+    margin: auto;
+     }
+
+.galeria-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+
+.video-texto {
+    width: 300px;
+    height: 420px;
+    border: 8px solid #FF9FAD;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.4);
+    flex-grow: 1;
+    transition: transform .5s linear;
+}
+
+.video-texto img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.video-texto:hover {
+    transform: scale(1.15);
+}
+
+.legenda {
+    font-size: 30px;
+    color: black;
+    bottom: 40px;
+    position: relative;
+    background-color: #FF9FAD;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+footer {
+    width: 95%;
+    min-height: 100%;
+    background-color: #FFB6C1;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    border: solid 1.5px  rgba(255, 0, 0, 0.4);
+    border-bottom:3px solid rgba(255, 0, 0, 0.4);
+    box-shadow: 20px 20px 10px rgba(255, 0, 0, 0.4);
+    
+
+}
+
+footer .boxs {
+    width: 320px;
+    min-height: 150px ;
+    padding: 25px;
+
+
+}
+
+footer .boxs:nth-child(4)
+{
+    width: 400px;
+}
+
+.icon {
+    width: 10%;
+    height: 10%;
+    padding:11%;
+    display: inline-block;
+
+}
+
+a {
+    color: black;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+
+
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFB6C1;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+
+}
+
+#menu ul li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+#menu ul li a {
+    padding: 2px 30px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color: #FFB6C1;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.4);
+    box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.4);
+    font-size: 30px;
+    font-weight: 580;
+    border: solid 0.5px rgba(255, 0, 0, 0.4);
+}
+
+#menu ul li a:hover {
+    background-color: rgba(251, 91, 91, 0.4);
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.titulomenu {
+    bottom: 700;
+    position: relative;
+
+}
+
+
+.logo {
+    width: 70px;
+    position: relative;
+    left: -45px;
+    bottom: -159px;
+}
+
+.titulologo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+
+}
+
+.titulo {
+    position: relative;
+    left: 39px;
+    bottom: -11px;
+    text-align: center;
+    color: #d5ab95;
+  
+     }
+   
+   
+footer h4 {
+    font-size: 23px;
+    text-align: justify;
+}
+
+    .filtro {
+        display: inline;
+        /* padding:  20px; */
+        position: relative;
+        /* margin-left: 18%; */
+        /* width: 300px; */
+        margin: auto;
+    }
+
+    .filtro a {
+        padding: 40px;
+    }
+    
+    h5 {
+        text-align: center;
+        font-size: 20px;
+        border: 4px solid #FF9FAD;
+        box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.4);
+        width: 300px;
+        margin: auto;
+    }
+
+    .descrição {
+        position: relative;
+        bottom: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+        footer {
+            width: 100%;
+        }
+    
+        footer .social img {
+    
+            display: flex;
+            width: 26%;
+            margin: auto;
+        }
+         }
+
+         
+    @media screen and (max-width: 600px) {
+        .logo {
+            width:60px; 
+            left: -24px;
+            bottom: -55%;
+    }
+
+    .titulologo {
+        font-size: 50px;
+    }
+     }
+

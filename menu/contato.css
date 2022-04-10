@@ -1,0 +1,265 @@
+body {
+    background-color: #FFB6C1;
+    font-family: 'Amatic SC', cursive;
+    margin-top: -5.5%;
+
+}
+
+main {
+    background-color: #ff9fad;
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+    border: 8px solid #ff9fad;
+    box-shadow: 20px 20px 10px rgba(255, 0, 0, 0.4);
+    flex-grow: 4;
+    transition: transform .5s linear;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0px #fbdcd7,
+        -1px 1px 0px #fbdcd7,
+        1px -1px 0px #fbdcd7,
+        1px 0px 0px #fbdcd7;
+}
+
+/* RODAPE */
+footer {
+    width: 95%;
+    min-height: 100%;
+    background-color: #FFB6C1;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    border: solid 1.5px rgba(255, 0, 0, 0.4);
+    border-bottom: 3px solid rgba(255, 0, 0, 0.4);
+    box-shadow: 20px 20px 10px rgba(255, 0, 0, 0.4);
+
+
+}
+
+footer .boxs {
+    width: 320px;
+    min-height: 150px;
+    padding: 25px;
+
+
+}
+
+footer .boxs:nth-child(4) {
+    width: 400px;
+}
+
+.icon {
+    width: 10%;
+    height: 10%;
+    padding: 11%;
+    display: inline-block;
+}
+
+footer h3 {
+
+    text-align: center;
+    font-size: 35px;
+    text-align: center;
+    border: 4px solid #FF9FAD;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.4);
+
+
+}
+
+footer h4 {
+    font-size: 23px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        width: 100%;
+    }
+
+    footer .social img {
+
+        display: flex;
+        width: 26%;
+        margin: auto;
+    }
+}
+
+/* --------------------------- */
+
+/* MENU */
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFB6C1;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+
+}
+
+#menu ul li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+#menu ul li a {
+    padding: 2px 30px;
+    display: inline-block;
+    background-color: #FFB6C1;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.4);
+    box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.4);
+    font-size: 30px;
+    font-weight: 580;
+    border: solid 0.5px rgba(255, 0, 0, 0.4);
+}
+
+#menu ul li a:hover {
+    background-color: rgba(251, 91, 91, 0.4);
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+/* ---------- */
+
+/* FORMULARIO  */
+form {
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    border: 4px solid #FF9FAD;
+    box-shadow: 20px 20px 10px rgba(255, 0, 0, 0.4);
+    border-radius: 1em;
+    background-color: white;
+
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-size: 40px;
+    padding: 5px;
+}
+
+input,
+textarea {
+    font-family: 'Amatic SC', h1;
+    font-size: 30px;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 150px;
+    padding: 5px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+
+/* -------------- */
+/*-- LOGO --*/
+.logo {
+    width: 70px;
+    position: relative;
+    left: -45px;
+    bottom: -159px;
+}
+
+.titulologo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+
+.titulo {
+    position: relative;
+    left: 39px;
+    bottom: -11px;
+    text-align: center;
+    color: #d5ab95;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 60px;
+        left: -24px;
+        bottom: -55%;
+    }
+
+    .titulologo {
+        font-size: 50px;
+    }
+}
+
+/* --------------------- */
+
+.iconsocial {
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    border: 4px solid #FF9FAD;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.4);
+    width: 300px;
+    margin: auto;
+}

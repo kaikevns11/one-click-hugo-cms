@@ -1,0 +1,257 @@
+body {
+
+    /*  width: 95%;
+    max-width: 800px;
+    margin: auto; */
+    margin-top: -5.5%;
+    /* background-image: url(imagens/2d0f26a79c5e28201dc69746e3d02708.jpg); */
+    background-color: #FFB6C1;
+    font-family: 'Amatic SC', cursive;
+}
+
+main {
+    background-color: white;
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    border: 8px solid #ff9fad;
+    box-shadow: 20px 20px 10px rgba(255, 0, 0, 0.4);
+    flex-grow: 4;
+    transition: transform .5s linear;
+}
+
+/* GALERIA */
+.galeria-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+
+.video-texto {
+    width: 300px;
+    height: 200px;
+    border: 8px solid #fff;
+    box-shadow: 5px 5px 5px rgba(56, 53, 53, 0.4);
+    flex-grow: 1;
+    transition: transform .5s linear;
+}
+
+.video-texto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-texto:hover {
+    transform: scale(1.15);
+}
+
+.legenda {
+    font-size: 30px;
+    color: black;
+    bottom: 40px;
+    position: relative;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* --------------- */
+
+/* RODAPE */
+
+footer {
+    width: 95%;
+    min-height: 100%;
+    background-color: #FFB6C1;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    border: solid 1.5px rgba(255, 0, 0, 0.4);
+    border-bottom: 3px solid rgba(255, 0, 0, 0.4);
+    box-shadow: 20px 20px 10px rgba(255, 0, 0, 0.4);
+}
+
+footer .boxs {
+    width: 320px;
+    min-height: 150px;
+    padding: 25px;
+}
+
+footer .boxs:nth-child(4) {
+    width: 400px;
+}
+
+.icon {
+    width: 10%;
+    height: 10%;
+    padding: 11.3%;
+    display: inline-block;
+
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        width: 100%;
+    }
+
+    footer .social img {
+
+        display: flex;
+        width: 26%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        width: 100%;
+    }
+
+    footer .social img {
+
+        display: flex;
+        width: 26%;
+        margin: auto;
+    }
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+    border: 4px solid #FF9FAD;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.4);
+}
+
+footer h4 {
+    font-size: 25px;
+}
+
+/* ----------------- */
+
+/* MENU */
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFB6C1;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+
+}
+
+#menu ul li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+#menu ul li a {
+    padding: 2px 30px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color: #FFB6C1;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.4);
+    box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.4);
+    font-size: 30px;
+    font-weight: 580;
+    border: solid 0.5px rgba(255, 0, 0, 0.4);
+}
+
+#menu ul li a:hover {
+    background-color: rgba(251, 91, 91, 0.4);
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+/* logo e titulo */
+.logo {
+    width: 70px;
+    position: relative;
+    left: -45px;
+    bottom: -159px;
+}
+
+.titulologo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+
+}
+
+.titulo {
+    position: relative;
+    left: 39px;
+    bottom: -11px;
+    text-align: center;
+    color: #d5ab95;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 60px;
+        left: -24px;
+        bottom: -55%;
+    }
+
+    .titulologo {
+        font-size: 50px;
+    }
+}
+
+/* --------------- */
+h1 {
+    font-size: 80px;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0px #fbdcd7,
+        -1px 1px 0px #fbdcd7,
+        1px -1px 0px #fbdcd7,
+        1px 0px 0px #fbdcd7;
+}
+
+h2 {
+
+    font-size: 40px;
+    text-align: center;
+    border: 4px solid #FF9FAD;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.4);
+    width: 300px;
+    margin: auto;
+}
+
+hr {
+    border: 0;
+    border-top: 0.1px solid;
+    width: 400px;
+}
+
+p {
+    font-size: 50px;
+    text-align: center;
+}
+
+.textomissao p {
+    text-align: justify;
+    font-size: 30px;
+    padding: 8px;
+    margin: 10px;
+}
+
+a {
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: justify;
+}
